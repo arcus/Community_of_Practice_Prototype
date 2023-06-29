@@ -16,7 +16,6 @@ jobs:
         with:
           title: "Automated Announcement"
           body: |
-            This is a post to the announcements category that was created using GitHub actions. \
-            Here's hoping this works as intended! :D 
+            This is a post to the announcements category that was created using GitHub actions.
           repository-id: ${{ secrets.REPO_ID }}
           category-id: ${{ secrets.ANNOUNCEMENTS_ID }} 
